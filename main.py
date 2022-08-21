@@ -51,5 +51,3 @@ if __name__ == '__main__':
     result = soup.get_elements()
     result = list(map(lambda x: x.__dict__, result))
 
-    print(result)
-
